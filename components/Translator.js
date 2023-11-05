@@ -405,34 +405,34 @@ export default function Translator() {
         rawText = rawText.replace(/i/g, "\u1761");
         rawText = rawText.replace(/u/g, "\u1762");
 
-        rawText = rawText.replace(/ng/g, "\u1765\u1734");
+        rawText = rawText.replace(/ng/g, "\u1765");
         rawText = rawText.replace(/ra/g, "\u176D");
         rawText = rawText.replace(/ha/g, "\u1771");
         rawText = rawText.replace(/ri/g, "\u176D\u1772");
         rawText = rawText.replace(/hi/g, "\u1771\u1772");
         rawText = rawText.replace(/ru/g, "\u176D\u1773");
         rawText = rawText.replace(/hu/g, "\u1771\u1773");
-        rawText = rawText.replace(/k/g, "\u1763\u1734");
-        rawText = rawText.replace(/g/g, "\u1764\u1734");
-        rawText = rawText.replace(/t/g, "\u1766\u1734");
-        rawText = rawText.replace(/d/g, "\u1767\u1734");
-        rawText = rawText.replace(/n/g, "\u1768\u1734");
-        rawText = rawText.replace(/p/g, "\u1769\u1734");
-        rawText = rawText.replace(/b/g, "\u176A\u1734");
-        rawText = rawText.replace(/m/g, "\u176B\u1734");
-        rawText = rawText.replace(/y/g, "\u176C\u1734");
-        rawText = rawText.replace(/r/g, "\u176D\u1734");
-        rawText = rawText.replace(/l/g, "\u176E\u1734");
-        rawText = rawText.replace(/w/g, "\u176F\u1734");
-        rawText = rawText.replace(/s/g, "\u1770\u1734");
-        rawText = rawText.replace(/h/g, "\u1771\u1734");
-        rawText = rawText.replace(/x/g, "\u1763\u1734\u1770\u1734");
-        rawText = rawText.replace(/z/g, "\u1770\u1734");
-        rawText = rawText.replace(/q/g, "\u1763\u1734");
-        rawText = rawText.replace(/v/g, "\u176A\u1734");
-        rawText = rawText.replace(/c/g, "\u1763\u1734")
-        rawText = rawText.replace(/f/g, "\u1769\u1734");
-        rawText = rawText.replace(/j/g, "\u176C\u1734");
+        rawText = rawText.replace(/k/g, "\u1763");
+        rawText = rawText.replace(/g/g, "\u1764");
+        rawText = rawText.replace(/t/g, "\u1766");
+        rawText = rawText.replace(/d/g, "\u1767");
+        rawText = rawText.replace(/n/g, "\u1768");
+        rawText = rawText.replace(/p/g, "\u1769");
+        rawText = rawText.replace(/b/g, "\u176A");
+        rawText = rawText.replace(/m/g, "\u176B");
+        rawText = rawText.replace(/y/g, "\u176C");
+        rawText = rawText.replace(/r/g, "\u176D");
+        rawText = rawText.replace(/l/g, "\u176E");
+        rawText = rawText.replace(/w/g, "\u176F");
+        rawText = rawText.replace(/s/g, "\u1770");
+        rawText = rawText.replace(/h/g, "\u1771");
+        rawText = rawText.replace(/x/g, "\u1763\u1770");
+        rawText = rawText.replace(/z/g, "\u1770");
+        rawText = rawText.replace(/q/g, "\u1763");
+        rawText = rawText.replace(/v/g, "\u176A");
+        rawText = rawText.replace(/c/g, "\u1763")
+        rawText = rawText.replace(/f/g, "\u1769");
+        rawText = rawText.replace(/j/g, "\u176C");
 
         setFontClass('tagbanwa');
         return rawText;
