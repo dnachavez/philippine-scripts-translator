@@ -426,6 +426,13 @@ export default function Translator() {
         rawText = rawText.replace(/w/g, "\u176F\u1734");
         rawText = rawText.replace(/s/g, "\u1770\u1734");
         rawText = rawText.replace(/h/g, "\u1771\u1734");
+        rawText = rawText.replace(/x/g, "\u1763\u1734\u1770\u1734");
+        rawText = rawText.replace(/z/g, "\u1770\u1734");
+        rawText = rawText.replace(/q/g, "\u1763\u1734");
+        rawText = rawText.replace(/v/g, "\u176A\u1734");
+        rawText = rawText.replace(/c/g, "\u1763\u1734")
+        rawText = rawText.replace(/f/g, "\u1769\u1734");
+        rawText = rawText.replace(/j/g, "\u176C\u1734");
 
         setFontClass('tagbanwa');
         return rawText;
