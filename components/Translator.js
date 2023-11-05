@@ -66,6 +66,7 @@ export default function Translator() {
         rawText = rawText.replace(/da/g, "\u1707");
         rawText = rawText.replace(/na/g, "\u1708");
         rawText = rawText.replace(/pa/g, "\u1709");
+        rawText = rawText.replace(/fa/g, "\u1709");
         rawText = rawText.replace(/ba/g, "\u170A");
         rawText = rawText.replace(/ma/g, "\u170B");
         rawText = rawText.replace(/ya/g, "\u170C");
@@ -110,11 +111,15 @@ export default function Translator() {
         rawText = rawText.replace(/u/g, "\u1702");
 
         rawText = rawText.replace(/k/g, "\u1703\u1714");
+        rawText = rawText.replace(/c/g, "\u1703\u1714");
+        rawText = rawText.replace(/q/g, "\u1703\u1714");
         rawText = rawText.replace(/g/g, "\u1704\u1714");
         rawText = rawText.replace(/t/g, "\u1706\u1714");
         rawText = rawText.replace(/d/g, "\u1707\u1714");
         rawText = rawText.replace(/n/g, "\u1708\u1714");
         rawText = rawText.replace(/p/g, "\u1709\u1714");
+        rawText = rawText.replace(/f/g, "\u1709\u1714");
+        rawText = rawText.replace(/v/g, "\u170A\u1714");
         rawText = rawText.replace(/b/g, "\u170A\u1714");
         rawText = rawText.replace(/m/g, "\u170B\u1714");
         rawText = rawText.replace(/y/g, "\u170C\u1714");
@@ -122,7 +127,10 @@ export default function Translator() {
         rawText = rawText.replace(/l/g, "\u170E\u1714");
         rawText = rawText.replace(/w/g, "\u170F\u1714");
         rawText = rawText.replace(/s/g, "\u1710\u1714");
+        rawText = rawText.replace(/x/g, "\u1710\u1714");
+        rawText = rawText.replace(/z/g, "\u1710\u1714");
         rawText = rawText.replace(/h/g, "\u1711\u1714");
+        rawText = rawText.replace(/j/g, "\u1711\u1714");
 
         setFontClass('baybayin');
         return rawText;
